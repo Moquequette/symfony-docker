@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+{% block main %}
+	<div class="card" style="width: 18rem;">
+		<img src="https://files.cults3d.com/uploaders/23436622/illustration-file/6711a4c2-c864-42a3-adc2-a225b0ed96d4/er.png" class="card-img-top" alt="its a me mario">
+		<div class="card-body">
+			<h5 class="card-title">{{article.titre}}</h5>
+			<a href="#" class="btn btn-primary">{{article.date|date("d/m/Y")}}</a>
+		</div>
+	</div>
+{% endblock %}
